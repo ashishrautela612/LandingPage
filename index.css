@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+body {
+  width: 100%;
+}
+.landingPage {
+  background-color: #20364b;
+  width: 100%;
+}
+
+.header {
+  display: inline-block;
+  width: 87%;
+  margin: auto;
+  padding-top: 5vh;
+  align-items: center;
+  margin-left: 72px;
+}
+.logo {
+  display: inline-block;
+}
+.logoImage {
+  height: 43px;
+}
+.navBar {
+  display: inline-block;
+  margin-top: 0;
+  margin-left: 27vw;
+  color: white;
+  vertical-align: top;
+}
+.navItem {
+  vertical-align: top;
+  margin-left: 39px;
+  letter-spacing: 1px;
+  padding: 0 5px;
+  padding-bottom: 5px;
+}
+.navItem:hover {
+  font-weight: 550;
+  border-bottom: 2px solid #fdc220;
+  margin-left: 38px;
+}
+.arrow {
+  vertical-align: middle;
+  height: 12px;
+}
+
+.mainConatinerLeft {
+  position: absolute;
+  left: 72px;
+  top: 22vh;
+}
+.main {
+  width: 98%;
+  height: 85vh;
+  margin: auto;
+}
+.mainImageContainer {
+  width: 53%;
+  height: 97%;
+  position: relative;
+  left: 48%;
+}
+.mainImage {
+  width: 98%;
+  height: 98%;
+}
+
+.heading {
+  font-size: 53px;
+  font-weight: 900;
+}
+
+.subscribe {
+  color: #fdc220;
+  margin-bottom: -14px;
+}
+
+.description {
+  font-size: 13px;
+  color: white;
+  width: 36vw;
+  font-weight: 400;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.formInput {
+  display: block;
+  margin-top: 22px;
+  height: 32px;
+  padding-left: 28px;
+  border: 1px solid white;
+  border-radius: 19px;
+  width: 60%;
+  color: rgb(153, 145, 145);
+  font-size: 15px;
+}
+
+.sendBtn {
+  width: 7vw;
+  margin-top: 22px;
+  height: 32px;
+  border-radius: 19px;
+  border: none;
+  background-color: #fdc220;
+}
+
+.msgBox {
+  position: relative;
+  top: -5vh;
+  left: 90%;
+  height: 50px;
+  width: 56px;
+}
+
+.sliderbottom > span {
+  height: 2px;
+  border: 2px solid white;
+}
+
+ 
+.footer{
+    position: relative;
+    width: 15%;
+    margin-left: 38%;
+    margin-top: -20px;
+    height: 1vh;
+}
+ 
+.footerContainer{
+    width: 100%;
+    background-color: #384e63;
+    height: 100%;
+    border-radius: 3px;
+}
+ 
+.footerContent{
+    width: 25%;
+    margin-left: 25%;
+    background-color: #fdc220;
+    height: 100%;
+    border-radius: 5px;
+}
